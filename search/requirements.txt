@@ -7,7 +7,7 @@ Must follow Google aesthetics - clean, white background, black text
         ADD "I'm Feeling Lucky" button
             when clicked, go directly to first result site, bypassing normal results page
     Google Image search
-        same as index but with google images instead or regular
+        same as index but with google images instead of regular
     Google Advanced search
         find pages with... 
             "all these words"
