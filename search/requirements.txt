@@ -1,0 +1,19 @@
+Three pages - links in upper right to other pages (index) OR main page (image/advanced)
+Must follow Google aesthetics - clean, white background, black text
+    index.html (regular search)
+        enter search in bar, click button, get google search results
+        search bar centered with rounded corners
+        search button centered beneath search bar
+        ADD "I'm Feeling Lucky" button
+            when clicked, go directly to first result site, bypassing normal results page
+    Google Image search
+        same as index but with google images instead or regular
+    Google Advanced search
+        find pages with... 
+            "all these words"
+            "this exact word or phrase"
+            "any of these words"
+            "none of these words"
+        options stacked vertically, text fields left-align
+        "Advanced Search" button blue with white text
+        when clicked taken to results
