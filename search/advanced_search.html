@@ -8,13 +8,14 @@
         <div id ="top_link">
             <a href="/search/index.html">Home</a>
         </div>
-        <div>
+        <div id="search_box">
+            <!-- get from Google inspect: exact (as_epq), any(as_oq), none(as_eq) -->
             Find pages with:
             <form id="search" action="https://www.google.com/search" >
-                all these words: <input type="text" name="q"><br>
-                this exact word or phrase: <input type="text" name="as_epq"><br>
-                any of these words: <input type="text" name="as_oq"><br>
-                none of these words: <input type="text" name="as_eq"><br>
+                <div>all these words: <input id="adv_search" type="text" name="q"></div>
+                <div>this exact word or phrase: <input id="adv_search" type="text" name="as_epq"></div>
+                <div>any of these words: <input id="adv_search" type="text" name="as_oq"></div>
+                <div>none of these words: <input id="adv_search" type="text" name="as_eq"></div>
                 <input id="advanced_search" type="submit" value="Advanced Search">
             </form>
         </div>
