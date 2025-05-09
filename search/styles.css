@@ -1,0 +1,32 @@
+input[type=text]{
+    border-radius: 10px;
+    padding:10px;
+    margin:5px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#adv_search{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+#advanced_search{
+    text-align: center;
+    background-color: #3079ed;
+    color: white;
+    padding: 12px;
+    border: 1px;
+    border-radius: 5px;
+}
+#search{
+    text-align: center;
+}
+#search_box{
+    text-align: left;
+}
+#top_link{
+    text-align: right;
+}
