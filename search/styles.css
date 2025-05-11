@@ -1,19 +1,14 @@
 input[type=text]{
-    border-radius: 10px;
-    padding:10px;
-    margin:5px;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-#adv_search{
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
 }
-#advanced_search{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#adv_search_btn{
     text-align: center;
     background-color: #3079ed;
     color: white;

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Advanced Search</title>
+        <!-- set viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link to CSS -->
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div id ="top_link">
-            <a href="/search/index.html">Home</a>
+            <a href="/search/index.html">Google Search</a> | <a href="/search/image_search.html">Image Search</a>
         </div>
         <div id="search_box">
             <!-- get from Google inspect: exact (as_epq), any(as_oq), none(as_eq) -->
             Find pages with:
             <form id="search" action="https://www.google.com/search" >
-                <div>all these words: <input id="adv_search" type="text" name="q"></div>
-                <div>this exact word or phrase: <input id="adv_search" type="text" name="as_epq"></div>
-                <div>any of these words: <input id="adv_search" type="text" name="as_oq"></div>
-                <div>none of these words: <input id="adv_search" type="text" name="as_eq"></div>
-                <input id="advanced_search" type="submit" value="Advanced Search">
+                <div>all these words: <input type="text" name="q"></div>
+                <div>this exact word or phrase: <input type="text" name="as_epq"></div>
+                <div>any of these words: <input type="text" name="as_oq"></div>
+                <div>none of these words: <input type="text" name="as_eq"></div>
+                <input id="adv_search_btn" type="submit" value="Advanced Search">
             </form>
         </div>
     </body>
