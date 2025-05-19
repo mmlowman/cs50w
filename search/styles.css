@@ -8,6 +8,14 @@ input[type=text]{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+#adv_bar{
+    color: #d93025;
+    font-size: 20px;
+    margin: 10px;
+}
+#adv_border{
+    border-bottom: 1px solid #ebebeb;
+}
 #adv_search_btn{
     text-align: center;
     background-color: #3079ed;
@@ -15,13 +23,64 @@ body{
     padding: 12px;
     border: 1px;
     border-radius: 5px;
+    float: right;
 }
 #search{
     text-align: center;
 }
 #search_box{
-    text-align: left;
+    display: flex;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
 }
 #top_link{
     text-align: right;
+}
+#whitespace{
+    display: inline-block;
+    width: 50%;
+}
+
+.adv_search_container{
+    margin: 50px 40px;
+}
+.adv_search_container label{
+    display: inline-block;
+    width: 16%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.adv_search_container .label2{
+
+}
+.adv_search_container .whitespace{
+    display: inline-block;
+    width: 50%;
+}
+.adv_search_container .search_forms{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.adv_search_container .search_forms label{
+    width: 16%;
+    font-size: 14px;
+}
+.adv_search_container .search_forms input[type=text]{
+    width: 49%;
+    padding: 2px 0;
+}
+.adv_search_container .search_forms .search_examples{
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+}
+.adv_search_container .search_forms .search_examples .monospace{
+    font-family: monospace;
+}
+.adv_search_container .search_forms .adv_btn{
+    width: 50%;
 }
