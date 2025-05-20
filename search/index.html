@@ -11,12 +11,17 @@
         <div id="top_link">
             <a href="/search/image_search.html">Image Search</a> | <a href="/search/advanced_search.html">Advanced Search</a>
         </div>
-        <div>
-            <form id="search" action="https://www.google.com/search" >
-                <input type="text" name="q"><br>
+        <div class="search_content">
+            <img src="images/cs50wsearch.png" width="272">
+            <form action="https://www.google.com/search">
+                <div class="search_field">
+                    <input type="text" name="q">
+                </div>
+                <center>
                 <input type="submit" value="Google Search">
                 <!-- get from Google inspect: name="btnI" and value="I'm feeling lucky" -->
                 <input type="submit" value="I'm Feeling Lucky" name="btnI" value="I'm feeling lucky">
+                </center>
             </form>
         </div>
     </body>
