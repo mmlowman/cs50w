@@ -39,7 +39,7 @@ body{
 #adv_bar{
     color: #d93025;
     font-size: 20px;
-    margin: 10px;
+    margin: 25px 35px;
 }
 #adv_border{
     border-bottom: 1px solid #ebebeb;
@@ -48,10 +48,15 @@ body{
     text-align: center;
     background-color: #3079ed;
     color: white;
-    padding: 12px;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0 12px;
     border: 1px;
     border-radius: 5px;
     float: right;
+    margin: 10px;
+    height: 30px;
+    min-width: 120px;
 }
 .top_bar{
     display: flex;
@@ -115,6 +120,12 @@ body{
     width: 16%;
     font-size: 14px;
 }
+.adv_search_container span{
+    width: 16%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #777;
+}
 .adv_search_container .search_forms input[type=text]{
     width: 49%;
     padding: 2px 0;
@@ -123,9 +134,12 @@ body{
     font-size: 11px;
     width: 30%;
     margin-left: 1%;
+    color: #555;
 }
 .adv_search_container .search_forms .search_examples .monospace{
     font-family: monospace;
+    font-weight: 100;
+    font-size: 11px;
 }
 .adv_search_container .search_forms .adv_btn{
     width: 50%;
