@@ -129,6 +129,7 @@ body{
 .adv_search_container .search_forms input[type=text]{
     width: 49%;
     padding: 2px 0;
+    padding-left: 10px;
 }
 .adv_search_container .search_forms .search_examples{
     font-size: 11px;
